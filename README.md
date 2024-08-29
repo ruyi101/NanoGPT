@@ -1,6 +1,6 @@
 # NanoGPT
 
-In this repo, we realize a nano version of GPT from scratch. The model includes a plain Byte Pairing tokenizer and a encoder-only version of Transformer. We train the tokenizer with Shakespeare's books and then train the language model with five different books from Ernest Hemingway.
+In this repo, we realize a nano version of GPT from scratch. The model includes a plain Byte Pairing tokenizer and a decoder-only version of Transformer. We train the tokenizer with Shakespeare's books and then train the language model with five different books from Ernest Hemingway.
 
 In the plain tokenizer, we tokenize the text by plain byte pairing algorithm. Although different corner cases are treated differently in tokenizers of for example GPT2, GPT3 and Llama, we keep our tokenizing process simple. 
 
